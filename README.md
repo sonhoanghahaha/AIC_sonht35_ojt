@@ -9,13 +9,13 @@ Dataset: https://www.kaggle.com/datasets/buharishehu/retail-sales-dataset
 
 ERD design: 
 <p align="center">
-  <img src="ERD.png" width="400">
+  <img src="images/ERD.png" width="400">
 </p>
 
 Pipeline:
 
 <p align="center">
-  <img src="Pipeline.png" width="400">
+  <img src="images/Pipeline.png" width="400">
 </p>
 
 

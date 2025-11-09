@@ -1,6 +1,7 @@
 from delta.tables import DeltaTable
 from pyspark.sql import SparkSession
 from datetime import datetime, timedelta
+from config import connection_properties, jdbc_url
 
 # Get input date
 dbutils.widgets.text("date","","Processing Date")
@@ -11,15 +12,6 @@ if input_date == "" or input_date is None:
 else:
     processing_date = datetime.strptime(input_date, "%Y-%m-%d").date()
 print(f"Processing date for date: {processing_date}")
-
-# Get connection:
-jdbc_url = "jdbc:postgresql://sonht35-test-1.ceahrljdchqz.us-east-1.rds.amazonaws.com:5432/postgres"
-
-connection_properties = {
-    "user": "postgres",
-    "password": "646592Ss",
-    "driver": "org.postgresql.Driver"
-}
 
 # CHECK table exist
 def table_exists(table_name):
