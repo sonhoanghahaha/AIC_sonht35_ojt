@@ -8,17 +8,16 @@ The purpose of this project is designing a data pipeline to load data from a dat
 Dataset: https://www.kaggle.com/datasets/buharishehu/retail-sales-dataset
 
 ERD design: 
-
-![ERD](D:\Son2024\Py_project\AIC_sonht35_ojt\ERD.png)
-
+<p align="center">
+  <img src="ERD.png" width="400">
+</p>
 
 Pipeline:
 
-Applied loading strategies:
+<p align="center">
+  <img src="Pipeline.png" width="400">
+</p>
 
-Delete/insert:
-
-Upsert + delete:
 
 
 
